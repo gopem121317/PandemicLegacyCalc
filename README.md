@@ -23,7 +23,7 @@ Includes:
 - Safe: number of top cards GUARANTEED NO Epidemic card
 - Active Cities: Infected Cities (top City Cards or discarded City cards)
 - Cards Left: Remaining Player Card deck size
-- ProbAdhoc: Explosion probability. Details in [Adhoc Tab](#adhoc-tab) and [Epidemic explosion probability](###epidemic-explosion-probability).
+- ProbAdhoc: Explosion probability. Details in [Adhoc Tab](#adhoc-tab) and [Epidemic explosion probability](#epidemic-explosion-probability).
 - Player actions (H3:K4): Remaining turns for each player until Player Cards exhausted.
 - Infection Rate: current infection rate. (Number of city cards revealed during infection phase)
 - Turns since last Epidemic: As its name
@@ -61,10 +61,10 @@ Range: (X7:AA55)
 Includes:
 
 - InfectProb1: Infection probability for Tier 1 Cities
-  See [Infection probability](###infection-probability) for details
+  See [Infection probability](#infection-probability) for details
 - InfectProb2,InfectProb3: Similar to above
 - EpidProb: Epidemic infection probability
-  See [Epidemic explosion probability](###epidemic-explosion-probability) for details
+  See [Epidemic explosion probability](#epidemic-explosion-probability) for details
 
 ## Static Tab
 

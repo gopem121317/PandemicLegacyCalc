@@ -1,14 +1,14 @@
 # Pandemic Legacy Calculator
 A Spreadsheet for recording Pandemic Legacy infected cities and calculating some relevant probabilities.
 
-Go to [How to play][] to start a game with Pandemic Legacy Calculator, and keep track of what cities are
+Go to [How to play](#How-to-play) to start a game with Pandemic Legacy Calculator, and keep track of what cities are
 in danger!
 
 # Table of Contents
-- [Overview][]
-- [How to play][]
-- [Copyrights and Disclaimer][]
-- [Credits][]
+- [Overview](#Overview)
+- [How to play](#How-to-play)
+- [Copyrights and Disclaimer](#Copyrights-and-Disclaimer)
+- [Credits](#Credits)
 
 # Overview
 
@@ -23,18 +23,18 @@ Includes:
 - Safe: number of top cards GUARANTEED NO Epidemic card
 - Active Cities: Infected Cities (top City Cards or discarded City cards)
 - Cards Left: Remaining Player Card deck size
-- ProbAdhoc: Explosion probability. Details in [Adhoc Tab][] and [Epidemic explosion probability][].
+- ProbAdhoc: Explosion probability. Details in [Adhoc Tab](##Adhoc-tab) and [Epidemic explosion probability](###Epidemic-explosion-probability).
 - Player actions (H3:K4): Remaining turns for each player until Player Cards exhausted.
 - Infection Rate: current infection rate. (Number of city cards revealed during infection phase)
 - Turns since last Epidemic: As its name
-- # Explosions: number of epidemic cards revealed during the current game
+- \# Explosions: number of epidemic cards revealed during the current game
 
 ### City Recording Section
 Range: (A7:P55)
 
 Includes:
 
-- # (City number): Background color indicates the type of virus
+- \# (City number): Background color indicates the type of virus
 - Alert: Alert level for infection. Larger number means coming sooner. 
   * Background color 
   + Red: Urgent
@@ -61,10 +61,10 @@ Range: (X7:AA55)
 Includes:
 
 - InfectProb1: Infection probability for Tier 1 Cities
-  See [Infection probability][] for details
+  See [Infection probability](###Infection-probability) for details
 - InfectProb2,InfectProb3: Similar to above
 - EpidProb: Epidemic infection probability
-  See [Epidemic explosion probability][] for details
+  See [Epidemic explosion probability](###Epidemic-explosion-probability) for details
 
 ## Static Tab
 
@@ -101,7 +101,8 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+along with this program, please see the LICENSE file. If not, see 
+<http://www.gnu.org/licenses/>.
 
 # Credits
 Designed and created by Lin Xu. Tested and documented by Lei Shi. 
